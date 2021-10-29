@@ -1,0 +1,30 @@
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding: 1.25rem;
+  border: 2px solid rgb(0, 228, 228);
+  border-radius: 0.7rem;
+  margin: 35px 0;
+}
+
+.todo_item__name {
+  font-size: 1.5rem;
+  color: rgb(0, 228, 228);
+  font-weight: 500;
+  width: 65%;
+  overflow: auto;
+}
+
+.todo_item__button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.todo_item__button img {
+  width: 2.5rem;
+}

@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-style: italic;
+  margin: 2rem 0;
+  color: rgb(0, 228, 228);
+}
+
+.modal {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 30px 20px;
+  position: absolute;
+  top: 38%;
+  left: 42%;
+}
+
+.modal span {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: rgb(0, 228, 228);
+}
+
+.modal button {
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.modal .ok {
+  background-color: rgb(0, 228, 228);
+  border: 2px solid rgb(0, 228, 228);
+}
+
+.modal .ok:hover {
+  color: rgb(0, 228, 228);
+  background-color: #fff;
+}
+
+.modal button:last-child {
+  background-color: rgb(228, 0, 19);
+  border: 2px solid rgb(228, 0, 19);
+}
+
+.modal button:last-child:hover {
+  color: rgb(228, 0, 19);
+  background-color: #fff;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 2px solid rgb(0, 228, 228);
+  outline: none;
+  color: rgb(0, 228, 228);
+  margin-bottom: 25px;
+}
+
+.modal label {
+  font-size: 1.3rem;
+  color: rgb(0, 228, 228);
+  margin-bottom: 5px;
+}

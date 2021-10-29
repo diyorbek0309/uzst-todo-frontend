@@ -1,0 +1,9 @@
+export const ADD_TODO = "ADD_TODO";
+export const GET_TODOS = "GET_TODOS";
+export const DELETE_TODO = "DELETE_TODO";
+export const EDIT_TODO = "EDIT_TODO";
+export const TODO_ERROR = "TODO_ERROR";
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+export const EDIT_TODO_MODAL = "EDIT_TODO_MODAL";
+export const DELETE_TODO_MODAL = "DELETE_TODO_MODAL";
